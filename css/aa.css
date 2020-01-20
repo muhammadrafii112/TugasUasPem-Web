@@ -1,0 +1,35 @@
+.navbar ul
+{
+    list-style: none; padding-top: 1px;
+}
+
+.navbar ul li
+{
+    display: inline; margin: 1px;
+}
+
+.navbar ul li a
+{
+    text-decoration: none; color: black; 
+}
+
+.navbar ul li a:hover 
+{
+    border-bottom: 2px;
+}
+
+.gambar 
+{
+    width: 100%; display: grid; grid-template-columns: 1fr 1fr 1fr; margin:auto;
+}
+
+.gambar .foto img
+{
+    width: 300px;
+}
+
+.foto 
+{
+    border: 0px solid black; margin:10px; text-align: center; background: rgb(255, 255, 255,0.3); border-radius:20px;  
+}
+
